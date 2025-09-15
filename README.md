@@ -1,4 +1,4 @@
-# 🧱 LEGO Price Prediction
+# LEGO Sets Price Prediction
 
 This repository contains a Jupyter Notebook that loads a LEGO sets CSV, performs cleaning and feature fixes, trains a few regression models, and uses them to predict set prices. The notebook demonstrates end-to-end steps from data loading to model evaluation and example predictions.
 
