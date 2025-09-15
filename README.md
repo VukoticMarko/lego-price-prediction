@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook that loads a LEGO sets CSV, performs
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 project_folder/
@@ -17,7 +17,7 @@ project_folder/
 
 ---
 
-## 🧩 What the notebook does
+## What the notebook does
 
 1. **Load dataset** from `dataset/sets.csv` using `pandas`.
 2. **Inspect & display** the DataFrame (shape, sample rows).
@@ -41,7 +41,7 @@ project_folder/
 
 ---
 
-## ✅ Key outputs
+## Key outputs
 
 * Cleaned dataset: `dataset/cleaned_lego_dataset.csv`
 * Model performance printed in the notebook (example values from a run):
@@ -53,7 +53,7 @@ project_folder/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 This notebook was executed with a Python kernel reporting `Python 3.12.7`.
 
@@ -65,7 +65,7 @@ pip install pandas scikit-learn jupyterlab notebook
 
 ---
 
-## ▶️ How to run
+## How to run
 
 1. Clone repo or copy the notebook and place your `sets.csv` under `dataset/sets.csv`.
    If `dataset/` folder doesn't exist, create it:
@@ -91,7 +91,7 @@ On Windows:
 
 ---
 
-## 📌 Quick troubleshooting
+## Quick troubleshooting
 
 * **FileNotFoundError for `dataset/sets.csv`** → ensure the file exists at that relative path.
 * **Different Python version** → verify your kernel matches installed packages. Use virtualenv/conda to control the environment.
@@ -99,6 +99,6 @@ On Windows:
 
 ---
 
-## 📜 License & attribution
+## License & attribution
 
 MIT license, granted full access to edit and contribute to this repository.
