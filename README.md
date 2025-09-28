@@ -22,7 +22,7 @@ project_folder/
 1. **Load dataset** from `dataset/sets.csv` using `pandas`.
 2. **Inspect & display** the DataFrame (shape, sample rows).
 3. **Drop duplicate rows**.
-4. **Impute `USD_MSRP` missing values** with the median (so there are no missing `USD_MSRP` values afterwards).
+4. **Impute `USD_MSRP` missing values** with the median (so there are no missing `USD_MSRP` values afterwards) or RF prediction (depending on which cell was ran).
 5. **Apply a simple heuristic fix**:
 
    * If `Name` contains `"Key Chain"` and `Minifigures` is missing → set `Minifigures = 1`, `Pieces = 3`.
